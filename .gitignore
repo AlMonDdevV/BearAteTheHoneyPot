@@ -1,0 +1,25 @@
+# Secrets — NEVER commit your token
+.env
+*.env
+!.env.example
+token.txt
+
+# Blacklist data (regenerates at runtime)
+honeypots.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

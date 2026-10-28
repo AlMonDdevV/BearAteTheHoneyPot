@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="BearAteTheHoneyPot banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1421"/>
+      <stop offset="1" stop-color="#13223d"/>
+    </linearGradient>
+    <pattern id="hex" width="56" height="48" patternUnits="userSpaceOnUse">
+      <path d="M28 0L56 16v24L28 56 0 40V16z" fill="none" stroke="#1b2b49" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#hex)" opacity="0.4"/>
+
+  <!-- title -->
+  <text x="640" y="160" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">BearAteTheHoneyPot</text>
+  <text x="640" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#9fb3d1">Anti-honeypot guider for mass-posting Discord bots</text>
+  <text x="640" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#f5b942">the bear skips the traps so your bot never gets baited</text>
+
+  <!-- ground path -->
+  <path d="M80 352 H1200" stroke="#33507e" stroke-width="4" stroke-dasharray="14 12" opacity="0.8"/>
+
+  <!-- bear -->
+  <g>
+    <circle cx="118" cy="224" r="16" fill="#8a5a2b"/>
+    <circle cx="162" cy="224" r="16" fill="#8a5a2b"/>
+    <circle cx="118" cy="224" r="8" fill="#5d3a1a"/>
+    <circle cx="162" cy="224" r="8" fill="#5d3a1a"/>
+    <circle cx="140" cy="258" r="42" fill="#8a5a2b"/>
+    <ellipse cx="140" cy="274" rx="21" ry="14" fill="#c89565"/>
+    <ellipse cx="140" cy="269" rx="7" ry="5" fill="#2b1d10"/>
+    <circle cx="126" cy="251" r="5" fill="#241608"/>
+    <circle cx="154" cy="251" r="5" fill="#241608"/>
+    <ellipse cx="140" cy="328" rx="48" ry="36" fill="#7a4e24"/>
+  </g>
+
+  <!-- honeypot -->
+  <g>
+    <ellipse cx="265" cy="296" rx="40" ry="11" fill="#f5b942"/>
+    <path d="M225 296 L305 296 L294 356 L236 356 Z" fill="#d98e04"/>
+    <path d="M230 296 L300 296 L299 308 L231 308 Z" fill="#b87704"/>
+    <path d="M265 310 l7 12 l-11 9 l8 13 l-10 11" fill="none" stroke="#7a4e04" stroke-width="4" stroke-linecap="round"/>
+    <path d="M231 306 q4 14 -2 24" fill="none" stroke="#f5b942" stroke-width="6" stroke-linecap="round"/>
+    <path d="M303 304 q5 18 -4 26" fill="none" stroke="#f5b942" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- trapdoors -->
+  <g fill="#b3261e">
+    <rect x="480" y="344" width="66" height="12" rx="6"/>
+    <rect x="640" y="344" width="66" height="12" rx="6"/>
+    <rect x="800" y="344" width="66" height="12" rx="6"/>
+  </g>
+  <g stroke="#ff6b5e" stroke-width="4" stroke-linecap="round">
+    <path d="M492 346 l20 8 M512 346 l-20 8"/>
+    <path d="M652 346 l20 8 M672 346 l-20 8"/>
+    <path d="M812 346 l20 8 M832 346 l-20 8"/>
+  </g>
+
+  <!-- robot -->
+  <g>
+    <line x1="590" y1="288" x2="590" y2="300" stroke="#4a90d9" stroke-width="4"/>
+    <circle cx="590" cy="284" r="4" fill="#4a90d9"/>
+    <rect x="572" y="300" width="36" height="34" rx="8" fill="#4a90d9"/>
+    <circle cx="583" cy="314" r="4.5" fill="#eaf3ff"/>
+    <circle cx="597" cy="314" r="4.5" fill="#eaf3ff"/>
+    <rect x="578" y="334" width="7" height="12" rx="3" fill="#3a6ea5"/>
+    <rect x="595" y="334" width="7" height="12" rx="3" fill="#3a6ea5"/>
+  </g>
+</svg>

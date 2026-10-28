@@ -1,0 +1,36 @@
+AI BANNER PROMPT for BearAteTheHoneyPot
+========================================
+
+Generate a 1280x400 banner with any image AI (DALL-E, Midjourney, Ideogram,
+Leonardo, etc.), save it as assets/banner.png, and update the image line at
+the top of README.md to reference it instead of banner.svg.
+
+
+MAIN PROMPT
+-----------
+Wide GitHub repository banner, 1280x400, dark navy background with a subtle
+hexagonal cybersecurity pattern. A cute cartoon bear with a smug expression
+sits next to a cracked, half-eaten glowing yellow honeypot dripping honey.
+Behind it, a small friendly blue robot walks along a path guided past several
+red glowing trapdoors marked with skull icons. Flat vector illustration
+style, bold colors, playful but techy. Bold white text overlay reads
+"BearAteTheHoneyPot" with a smaller subtitle "Anti-honeypot guider for
+Discord bots". Clean, high contrast, suitable for a GitHub README header.
+
+
+SHORT ALTERNATIVE
+-----------------
+Flat vector banner, 1280x400, dark navy background with subtle hex pattern:
+a cartoon bear guarding a cracked honeypot while a small blue Discord-style
+bot walks safely around red trapdoors. Title "BearAteTheHoneyPot" in bold
+white, subtitle "never step in the honey". Playful cybersecurity aesthetic.
+
+
+TIPS
+----
+- Generate at 1280x400 (GitHub README headers look best at that ratio).
+- Image AIs often garble text: if the title comes out wrong, generate the
+  artwork WITHOUT text and add the title yourself in Canva / Figma /
+  Photopea.
+- Save the result as assets/banner.png and change the first image line in
+  README.md from assets/banner.svg to assets/banner.png.
